@@ -54,7 +54,7 @@ UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/Pokkirispark1/W
 if len(UPSTREAM_REPO) == 0:
     UPSTREAM_REPO = None
 
-UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', 'hk')
+UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', 'hk_wzmlx')
 if len(UPSTREAM_BRANCH) == 0:
     UPSTREAM_BRANCH = 'master'
 
