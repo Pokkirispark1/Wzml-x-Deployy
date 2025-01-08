@@ -50,11 +50,11 @@ if DATABASE_URL is not None:
         environ['UPSTREAM_BRANCH'] = config_dict['UPSTREAM_BRANCH']
     conn.close()
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/Pokkirispark1/Wzml-x-modified')
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/Pokkirispark1/meta_wzml')
 if len(UPSTREAM_REPO) == 0:
     UPSTREAM_REPO = None
 
-UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', 'hk_wzmlx')
+UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', 'master')
 if len(UPSTREAM_BRANCH) == 0:
     UPSTREAM_BRANCH = 'master'
 
